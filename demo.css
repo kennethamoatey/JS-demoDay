@@ -1,0 +1,64 @@
+body{
+    
+        font-family:serif, arial;  
+        display:flex; 
+        justify-content: center;
+       background-image:url("guessing1.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-attachment:fixed;
+        background-position:center;
+}
+
+
+.form{
+        
+       
+        height:auto;
+        width:600px;
+        border-style:solid;
+        border-width:2px;
+        border-color:white;
+        text-align:center;
+        background-color:grey;
+        background-image:url("guessing2.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        margin-top:80px;
+        border-radius:20px;
+        box-shadow:20px 20px 20px grey;
+
+
+}
+
+.heading{
+        color:rgb(119, 2, 2);
+        font-size:34px;
+}
+
+p,#guess{
+        font-size:24px;
+}
+.guessfield{
+        border-style:solid;
+        height:35px;
+        width:230px;
+        border-color:grey;
+}
+
+#sub{
+        height:40px;
+        width:120px;
+        margin-top:10px;
+        border-style:solid;
+        border-color:grey;
+        color:white;
+        background-color:red;
+        border-radius:8px;
+
+}
+
+
+        
